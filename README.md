@@ -1,2 +1,1 @@
-UNKO # Landing-Page
-The Odin Project 2
+This is my 2nd assignment of The Odin Project 
