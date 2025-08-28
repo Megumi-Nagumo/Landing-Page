@@ -29,6 +29,12 @@ ul {
     display: flex;
 }
 
+.header-container {
+    position: sticky;
+    top: 0;
+}
+
+
 nav {
     padding: 0;
     margin-left: auto;
