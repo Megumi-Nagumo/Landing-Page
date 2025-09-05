@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f8f9fa;
 }
 
 a {
@@ -222,3 +223,28 @@ nav {
     font-size: 35px;
 }
 
+.image-container3 {
+    position: relative;
+    padding: 50px 20px;
+    height: auto; 
+    margin: 0 auto;
+
+}
+.image-container3 .leftup-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%; 
+    height: auto;
+    z-index: 2;
+}
+
+.image-container3 .rightdown-img {
+    position: absolute;
+    top: 90%;
+    /* MEMO: This value to control overlap */
+    left: 40%; 
+    width: 60%;
+    height: auto;
+    z-index: 1;
+}
