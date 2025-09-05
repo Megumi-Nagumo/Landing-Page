@@ -200,3 +200,25 @@ nav {
     text-align: center;
     z-index: 2;
 }
+
+.middle-text p{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    font-style: italic;
+    font-size: 30px;
+    font-family: "Abel", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    width: 30%;
+    line-height: 1.5;
+}
+
+.middle-text span {
+    font-weight: bold;
+    color: #000000;
+    font-size: 35px;
+}
+
